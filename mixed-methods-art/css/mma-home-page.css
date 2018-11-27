@@ -1,0 +1,174 @@
+/* ---------------------------------------------------
+       Entire Page
+------------------------------------------------------*/
+
+
+body {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-weight: 700;
+}
+
+hr {
+    border: 4px solid #48d6d3;
+    width: 8%;
+    float: left;
+}
+
+.current-link {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-custom {
+    background-color: #48d6d3;
+    color: #ffffff;
+}
+
+/*todo: I need to fix this*/
+.test {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #48d6d3;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 5rem 0 0 1rem;
+    margin-top: 3rem;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #48d6d3;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover,
+#top-nav-bar a:hover {
+    color: #48d6d3;
+    background: #fff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a.article,
+a.article:hover {
+    background: #48d6d3 !important;
+    color: #fff !important;
+}
+
+.top-bar {
+    position: absolute;
+    top: 24px;
+    height: 66px;
+    width: 100%;
+    background-color: #48d6d3;
+}
+
+.top-background {
+    background-color: #48d6d3;
+}
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+.mma-picture-side {
+    height: 100px;
+}
+
+.mma-picture-top {
+    height: 50px;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 0 40px 40px 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1.5rem;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 992px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+/* ---------------------------------------------------
+    Home Page
+----------------------------------------------------- */
+
+a h3 {
+    text-decoration: underline;
+}
+
+h6 {
+    font-size: small;
+    text-decoration: underline;
+}

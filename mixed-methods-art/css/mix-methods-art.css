@@ -1,0 +1,286 @@
+/* ---------------------------------------------------
+       Entire Page
+------------------------------------------------------*/
+
+
+body {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-weight: 700;
+}
+
+hr {
+    border: 4px solid #48d6d3;
+    width: 8%;
+    float: left;
+}
+
+.current-link {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-custom {
+    background-color: #48d6d3;
+    color: #ffffff;
+}
+
+    /*todo: I need to fix this*/
+.test {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #48d6d3;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 5rem 0 0 1rem;
+    margin-top: 3rem;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #48d6d3;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover,
+#top-nav-bar a:hover {
+    color: #48d6d3;
+    background: #fff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a.article,
+a.article:hover {
+    background: #48d6d3 !important;
+    color: #fff !important;
+}
+
+.top-bar {
+    position: absolute;
+    top: 24px;
+    height: 66px;
+    width: 100%;
+    background-color: #48d6d3;
+}
+
+.top-background {
+    background-color: #48d6d3;
+}
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+.mma-picture-side {
+    height: 100px;
+}
+
+.mma-picture-top {
+    height: 50px;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 0 40px 40px 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1.5rem;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 992px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------
+    Artists Page Style
+----------------------------------------------------- */
+
+.allison {
+    height: 60vh;
+}
+
+.fancy-border {
+    border:4px solid black;
+    box-shadow: 6px 6px 15px;
+}
+
+
+
+/* ---------------------------------------------------
+    Paintings Page Style
+----------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+    }
+
+}
+
+/* Bootstrap Lightbox using Modal */
+
+#profile-grid {
+    overflow: auto;
+    white-space: normal;
+}
+#profile-grid .profile {
+    padding-bottom: 40px;
+}
+#profile-grid .panel {
+    padding: 0
+}
+#profile-grid .panel-body {
+    padding: 15px
+}
+#profile-grid .profile-name {
+    font-weight: bold;
+}
+#profile-grid .thumbnail {
+    margin-bottom:6px;
+}
+#profile-grid .panel-thumbnail {
+    overflow: hidden;
+}
+#profile-grid .img-rounded {
+    border-radius: 4px 4px 0 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* ---------------------------------------------------
+    Paintings Page Style
+----------------------------------------------------- */
+
+
