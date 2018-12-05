@@ -33,6 +33,7 @@ textarea {
 }
 
 
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -278,6 +279,26 @@ a:focus {
     width: 30px;
 }
 
+.img-frame {
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 13rem;
+    border-radius: 2rem;
+}
+
+.img-frame-card {
+    padding: 1rem;
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(72, 214, 211);
+    line-height: 18rem;
+}
+
+.img-inside{
+    max-height: 100%;
+}
 
 /* ---------------------------------------------------
     Paintings Page Style

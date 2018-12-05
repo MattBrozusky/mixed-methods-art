@@ -62,12 +62,10 @@ $(document).ready(function () {
                 html = '<div class="carousel-item col-md-3 active">';
             }
             html += `
-                    <div class="panel panel-default">
-                        <div class="panel-thumbnail">
-                            <a href="#${paintingName}${painting.index}" title="${paintingName}" class="thumb">
-                                <img class="img-fluid mx-auto d-block" src="${painting.imgFile}" alt="slide 1">
-                            </a>
-                        </div>
+                    <div class="img-frame text-center">                    
+                        <a href="#${paintingName}${painting.index}" title="${paintingName}" class="thumb">
+                            <img class="img-fluid img-inside" src="${painting.imgFile}" alt="slide 1">
+                        </a>
                     </div>
                 </div>`;
             return html;
@@ -80,7 +78,9 @@ $(document).ready(function () {
                 <article class="col-12 col-md-6 col-xl-4 mt-5">
                     <a id="${paintingName}${painting.index}">
                         <div class="card">
-                            <img class="card-img-top" src="${painting.imgFile}" alt="Card image cap">
+                            <div class="img-frame-card card-img-top text-center">
+                                <img class="img-fluid mx-auto img-inside" src="${painting.imgFile}" alt="Card image cap">
+                            </div>
                             <h4 class="card-title text-center mt-2">${painting.name}</h4>
                             <div class="card-body pt-0">
                                 <p class="card-text">${painting.description}</p>
@@ -158,12 +158,13 @@ $(document).ready(function () {
 
 //Makes the home page carousel
     function renderHomePagePicturesPoems(randomPaintingArray, carouselNum) {
-        var html = '<ol class="carousel-indicators">';
-        html += '<li data-target="#carouselExampleIndicators' + carouselNum + '" data-slide-to="0" class="active"></li>';
-        html += '<li data-target="#carouselExampleIndicators' + carouselNum + '" data-slide-to="1"></li>';
-        html += '<li data-target="#carouselExampleIndicators' + carouselNum + '" data-slide-to="2"></li>';
-        html += '</ol>';
-        html += '<div class="carousel-inner">';
+        var html = `
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators${carouselNum}" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators${carouselNum}" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators${carouselNum}" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">`;
 
         //Genertaes all n number of inner html elements
         for (var i = 0; i < randomPaintingArray.length; i++) {
@@ -173,23 +174,25 @@ $(document).ready(function () {
                 html += '<div class="carousel-item">';
             }
 
-            html += '<img class="d-block w-100" src="' + randomPaintingArray[i].imgFile + '" alt="First slide">';
-            html += '<div class="carousel-caption d-none d-md-block">';
-            html += '<h5>' + randomPaintingArray[i].name + '</h5>';
-            html += '<p>$' + randomPaintingArray[i].price + '</p>';
-            html += '</div>';
-            html += '</div>';
+            html += `
+                <img class="d-block w-100" src="${randomPaintingArray[i].imgFile}" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>${randomPaintingArray[i].name}</h5>
+                    <p>$${randomPaintingArray[i].price}</p>
+                    </div>
+                </div>`
         }
 
-        html += '</div>';
-        html += '<a class="carousel-control-prev" href="#carouselExampleIndicators' + carouselNum + '" role="button" data-slide="prev">';
-        html += '<span class="carousel-control-prev-icon" aria-hidden="true"></span>';
-        html += '<span class="sr-only">Previous</span>';
-        html += '</a>';
-        html += '<a class="carousel-control-next" href="#carouselExampleIndicators' + carouselNum + '" role="button" data-slide="next">';
-        html += '<span class="carousel-control-next-icon" aria-hidden="true"></span>';
-        html += '<span class="sr-only">Next</span>';
-        html += '</a>';
+        html += `
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators${carouselNum}" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators${carouselNum}" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>`;
         return html;
     }
 
