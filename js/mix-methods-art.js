@@ -175,7 +175,7 @@ $(document).ready(function () {
             }
 
             html += `
-                <div class="text-center" style="padding: 1rem; width: 15rem; height: 15rem; background-color: rgba(255, 255, 255, 0.5); line-height: 13rem; border-radius: 2rem; margin-right: auto; margin-left: auto">
+                <div class="text-center img-background">
                     <img class="img-fluid" style="height: 100%;" src="${randomPaintingArray[i].imgFile}" alt="First slide">
                     </div>
                 </div>`

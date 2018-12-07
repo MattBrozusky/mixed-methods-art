@@ -172,3 +172,14 @@ h6 {
     font-size: small;
     text-decoration: underline;
 }
+
+.img-background {
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 13rem;
+    border-radius: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
