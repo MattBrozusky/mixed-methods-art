@@ -176,7 +176,7 @@ $(document).ready(function () {
 
             html += `
                 <div class="text-center img-background">
-                    <img class="img-fluid" style="height: 100%;" src="${randomPaintingArray[i].imgFile}" alt="First slide">
+                    <img class="img-fluid" style="max-height: 100%" src="${randomPaintingArray[i].imgFile}" alt="First slide">
                     </div>
                 </div>`
         }
