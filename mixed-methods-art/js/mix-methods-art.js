@@ -175,10 +175,8 @@ $(document).ready(function () {
             }
 
             html += `
-                <img class="d-block w-100" src="${randomPaintingArray[i].imgFile}" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>${randomPaintingArray[i].name}</h5>
-                    <p>$${randomPaintingArray[i].price}</p>
+                <div class="text-center" style="padding: 1rem; width: 15rem; height: 15rem; background-color: rgba(255, 255, 255, 0.5); line-height: 13rem; border-radius: 2rem; margin-right: auto; margin-left: auto">
+                    <img class="img-fluid" src="${randomPaintingArray[i].imgFile}" alt="First slide">
                     </div>
                 </div>`
         }
