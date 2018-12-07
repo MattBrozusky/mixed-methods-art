@@ -35,7 +35,7 @@ $(document).ready(function () {
 //-------------------------
 
     function getStoreData() {
-        $.get("mixed-methods-art/data/paintings-poems.json", {
+        $.get("data/paintings-poems.json", {
 
         }).done(function (data) {
             $("#img-cards").append(renderPaintings(data[0]));
