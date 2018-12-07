@@ -2,161 +2,161 @@
   [
     {
       "index": 1,
-      "imgFile": "../img/img1.jpg",
+      "imgFile": "img/img1.jpg",
       "price": 100,
       "name": "Light City",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 2,
-      "imgFile": "../img/img2.jpg",
+      "imgFile": "img/img2.jpg",
       "price": 200,
       "name": "Half City",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 3,
-      "imgFile": "../img/img3.jpg",
+      "imgFile": "img/img3.jpg",
       "price": 30,
       "name": "Cinnamon",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 4,
-      "imgFile": "../img/img4.jpg",
+      "imgFile": "img/img4.jpg",
       "price": 40,
       "name": "City",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 5,
-      "imgFile": "../img/img5.jpg",
+      "imgFile": "img/img5.jpg",
       "price": 50,
       "name": "America",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 6,
-      "imgFile": "../img/img6.jpg",
+      "imgFile": "img/img6.jpg",
       "price": 60,
       "name": "Breakfast",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 7,
-      "imgFile": "../img/img7.jpg",
+      "imgFile": "img/img7.jpg",
       "price": 70,
       "name": "High",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 9,
-      "imgFile": "../img/img8.jpg",
+      "imgFile": "img/img8.jpg",
       "price": 90,
       "name": "New Orleans go",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 8,
-      "imgFile": "../img/img9.jpg",
+      "imgFile": "img/img9.jpg",
       "price": 80,
       "name": "Continental",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 10,
-      "imgFile": "../img/img10.jpg",
+      "imgFile": "img/img10.jpg",
       "price": 100,
       "name": "European",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 11,
-      "imgFile": "../img/img11.jpg",
+      "imgFile": "img/img11.jpg",
       "price": 110,
       "name": "Espresso",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 12,
-      "imgFile": "../img/img12.jpg",
+      "imgFile": "img/img12.jpg",
       "price": 120,
       "name": "Viennese",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 13,
-      "imgFile": "../img/img13.jpg",
+      "imgFile": "img/img13.jpg",
       "price": 130,
       "name": "Italian",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 14,
-      "imgFile": "../img/img14.jpg",
+      "imgFile": "img/img14.jpg",
       "price": 140,
       "name": "French",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 15,
-      "imgFile": "../img/img15.jpg",
+      "imgFile": "img/img15.jpg",
       "price": 100,
       "name": "European",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 11,
-      "imgFile": "../img/img16.jpg",
+      "imgFile": "img/img16.jpg",
       "price": 110,
       "name": "Espresso",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 17,
-      "imgFile": "../img/img17.jpg",
+      "imgFile": "img/img17.jpg",
       "price": 120,
       "name": "Viennese",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 18,
-      "imgFile": "../img/img18.jpg",
+      "imgFile": "img/img18.jpg",
       "price": 130,
       "name": "Italian",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 19,
-      "imgFile": "../img/img19.jpg",
+      "imgFile": "img/img19.jpg",
       "price": 140,
       "name": "French",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 20,
-      "imgFile": "../img/img20.jpg",
+      "imgFile": "img/img20.jpg",
       "price": 100,
       "name": "European",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 21,
-      "imgFile": "../img/img21.jpg",
+      "imgFile": "img/img21.jpg",
       "price": 110,
       "name": "Espresso",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 22,
-      "imgFile": "../img/img22.jpg",
+      "imgFile": "img/img22.jpg",
       "price": 120,
       "name": "Viennese",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
     },
     {
       "index": 23,
-      "imgFile": "../img/img23.jpg",
+      "imgFile": "img/img23.jpg",
       "price": 130,
       "name": "Italian",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam animi assumenda consequatur corporis et eum, facere labore numquam obcaecati officiis placeat quam quisquam quos repellendus sint unde! Accusamus, corporis!"
@@ -165,35 +165,35 @@
   [
     {
       "index": 10,
-      "imgFile": "../img/img15.png",
+      "imgFile": "img/img15.png",
       "price": 10,
       "name": "European",
       "description": "dark"
     },
     {
       "index": 11,
-      "imgFile": "../img/img16.png",
+      "imgFile": "img/img16.png",
       "price": 11,
       "name": "Espresso",
       "description": "dark"
     },
     {
       "index": 12,
-      "imgFile": "../img/img17.png",
+      "imgFile": "img/img17.png",
       "price": 12,
       "name": "Viennese",
       "description": "dark"
     },
     {
       "index": 13,
-      "imgFile": "../img/img18.png",
+      "imgFile": "img/img18.png",
       "price": 13,
       "name": "Italian",
       "description": "dark"
     },
     {
       "index": 14,
-      "imgFile": "../img/img19.png",
+      "imgFile": "img/img19.png",
       "price": 14,
       "name": "French",
       "description": "dark"
